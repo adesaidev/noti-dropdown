@@ -1,0 +1,246 @@
+﻿
+
+ul.msg_list li {
+    display: -ms-flexbox;
+    display: flex
+}
+
+    ul.msg_list li:first-child, ul.msg_list li:nth-child(3) {
+        /*padding: 10px;
+        background-color: #f3f7f9;
+        border-top: 1px solid #e4eaec;*/
+        background: #f8f8f8 !important;
+        padding: 0px 20px !important;
+        box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.07) !important;
+    }
+
+ 
+
+ul.msg_list li a .time {
+    font-size: 12px;
+  
+    color: #a3afb7
+}
+ 
+
+.dropdown-menu.msg_list span {
+    white-space: normal
+}
+
+.tile_count .tile_stats_count, ul.quick-list li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+li.msg_list_menu a.sec_title {
+    background: #f8f8f8 !important;
+    padding: 5px 20px !important;
+    box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.07) !important;
+}
+    li.msg_list_menu a.sec_title h5 {
+        margin: 0;
+    }
+.dropdown-menu {
+    box-shadow: none;
+    display: none;
+    float: left;
+    font-size: 12px;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    text-shadow: none;
+    top: 100%;
+    margin-top: 10px;
+    z-index: 9998;
+    border: 1px solid #D9DEE4;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+.dropdown-menu > li > a {
+    color: #526069;
+    font-size: 14px
+}
+
+.navbar-nav .open .dropdown-menu {
+    position: absolute;
+    background: #fff;
+    margin-top: 0;
+    border: 1px solid #D9DEE4;
+    -webkit-box-shadow: none;
+    right: 0;
+    left: auto;
+    width: 220px
+}
+
+.navbar-nav .open .dropdown-menu.msg_list {
+    width: 300px
+}
+
+.info-number .badge {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    padding: 2px 6px;
+    position: absolute;
+    right: 2px;
+    top: 8px
+}
+
+ 
+ 
+.msg_list_menu {
+    max-height: 185px;
+    overflow: hidden
+}
+
+    .msg_list_menu {
+        overflow-y: scroll
+    }
+
+li.msg_list_menu a {
+    border-bottom: 1px solid #d9dee4;
+    padding:5px 15px !important
+}
+
+.msg_list li .text-center a {
+    padding: 15px 20px;
+    color: #a3afb7
+}
+
+.see_more_menu {
+    display: inline-flex !important
+}
+
+ 
+
+.see_more_menu .view_more {
+    position: absolute;
+    right: 0
+}
+
+.notify i {
+    position: relative;
+    color:#ff9042;
+    font-size:22px!important;
+}
+
+.see_more_menu .view_more a {
+    color: #808a90 !important
+}
+
+    .see_more_menu .view_more a:hover {
+        color: #62a8ea !important
+    }
+
+.msg_list_menu .name {
+    font-size: 15px
+}
+
+.see_more_menu .msg p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #808a90 !important;
+    margin: 0
+}
+
+ 
+.see_more_menu .msg p span {
+    font-weight: 400;
+    font-size: 12px
+}
+
+.chat-scroller::-webkit-scrollbar, .msg_list_menu::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    display:block;
+    
+}
+
+.chat-scroller::-webkit-scrollbar-track, .msg_list_menu::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.1)
+}
+
+.chat-scroller::-webkit-scrollbar-thumb, .msg_list_menu::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,.5)
+}
+
+.notify {
+    color: #fff;
+    padding: 8px 10px 8px 5px;
+    float: left;
+    height: 50px;
+}
+
+    .notify i {
+        
+    }
+
+.notify-last {
+    position: absolute;
+    top: -15px;
+    right: -28px;
+    background: #e7e9ea;
+    /* padding: 10px; */
+    cursor: pointer;
+    transform: rotate(45deg);
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    line-height: 55px;
+}
+.notify-last:hover {
+    background:#ff9042;
+}
+    .notify-last i {
+        font-size: 13px !important;
+        color: #fff !important;
+        transform: rotate(-45deg);
+    }
+
+.notification_menu .time {
+
+}
+  .top_nav .nav .open > a, .top_nav .nav .open > a:hover, .top_nav .nav > li > a:hover {
+    background: #3f4f62;
+    color: #fff !important
+}
+
+ 
+
+.top_nav .navbar-right {
+    margin: 0;
+    width: 70%;
+    float: right
+}
+
+    .top_nav .navbar-right li {
+        display: inline-block;
+        float: right;
+        position: static
+    }
+
+@media (min-width:480px) {
+    .top_nav .navbar-right li {
+        position: relative
+    }
+}
+
+.top_nav .dropdown-menu li {
+    width: 100%
+}
+
+    .top_nav .dropdown-menu li a {
+        width: 100%;
+        padding: 12px 20px;
+        position:relative;
+        overflow:hidden;
+    }
+    
+
+.top_nav li a i {
+    font-size: 15px
+}
+  
+
